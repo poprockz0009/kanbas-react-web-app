@@ -1,0 +1,14 @@
+.ProfileNav {
+    list-style-type: none;
+    width: 190px;
+}
+
+.ProfileNavItem {
+    text-decoration: none;
+    color:red;
+    padding: 15px 20px;
+    flex-wrap: wrap;
+}
+.ActiveBorder {
+    border-left: 5px solid black;
+  }
