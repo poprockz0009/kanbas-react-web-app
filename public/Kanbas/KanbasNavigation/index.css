@@ -1,0 +1,85 @@
+.KanbasNav {
+    color: white;
+    background-color: black;
+    width: 120px;
+    top: 0px;
+    height: 1000px;
+    float: left;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center; 
+   }
+
+.ListGroupItem {
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    list-style-type: none;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.NavIcon {
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
+
+ .Link {
+    text-decoration: none;
+    color: white;
+ }
+
+ .ActiveLink {
+    text-decoration: none;
+    list-style-type: none;
+    background-color: white;
+    color: red;
+    width: 120px;
+    padding-right: 25px;
+    display:inline-block;
+  }
+
+  .Link-Padding {
+    padding-bottom: 30px;
+}
+
+/* .LinkPadding {
+    padding-bottom: 0px;
+    padding-top: 0px;
+} */
+
+
+
+
+
+
+
+
+   .LinkElement {
+    color: white;
+    width: 10%;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float: left;
+ }
+ .li-active{
+    background-color: white;
+    width: 116px;
+    align-content: left;
+    color: red;
+  }
+
+ .NavElement {
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+
+
+
+   

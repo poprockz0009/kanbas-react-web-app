@@ -1,0 +1,23 @@
+
+.left-padding {
+  padding-left: 60px;
+}
+
+.right-padding {
+  padding-right: 60px;
+}
+
+.dash-padding {
+  padding-top: 15px;
+  padding-left: 30px;
+}
+
+.card-element {
+  width: 270px;
+  height: 250px;
+  align-items: center;
+}
+
+.card-title-color {
+  color: dodgerblue;
+}
