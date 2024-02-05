@@ -1,0 +1,28 @@
+.module-title {
+    background-color: lightgray;
+    margin: 0px;
+}
+
+.module-container {
+    padding: 0px;
+}
+
+.module-container>* {
+    padding: 10px;
+}
+
+.module-button {
+    height: 40px;
+}
+
+.module-options-button {
+    max-width: 40px;
+}
+
+.module-padding {
+    padding-right: 8px;
+}
+
+.title-padding {
+    padding-left: 8px ;
+}
