@@ -4,13 +4,13 @@
 import Labs from "./Labs";
 import HelloWorld from "./Labs/a3/HelloWorld";
 import Kanbas from "./Kanbas";
-import {HashRouter, Link} from "react-router-dom";
-import {Routes, Route, Navigate} from "react-router";
-
+import { HashRouter, Link } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router";
+import Assignment4 from "./Labs/a4";
 
 function App() {
-   return (
-      <HashRouter>
+  return (
+    <HashRouter>
       <div>
         <div className="list-group">
           <Link className="list-group-item" to="/Labs">
@@ -23,14 +23,16 @@ function App() {
             Kanbas
           </Link>
         </div>
-       <Routes>
-       <Route path="/"         element={<Navigate to="/Labs"/>}/>
-         <Route path="/Labs/*" element={<Labs />} />
-         <Route path="/hello" element={<HelloWorld />} />
+        <Routes>
+          <Route path="/" element={<Navigate to="/Labs" />} />
+          <Route path="/Labs/*" element={<Labs />} />
+          <Route path="/a4/*" element={<Assignment4 />} />
+          <Route path="/hello" element={<HelloWorld />} />
           <Route path="/Kanbas/*" element={<Kanbas />} />
         </Routes>
-        </div>
-        </HashRouter> );
+      </div>
+    </HashRouter>
+  );
 }
- 
+
 export default App;
