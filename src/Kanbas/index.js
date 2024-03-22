@@ -9,6 +9,8 @@ import store from "./store";
 import { Provider } from "react-redux";
 import axios from "axios";
 
+import Signin from "../project/users/signin";
+
 function Kanbas() {
   const [courses, setCourses] = useState([]);
   const URL = "https://node-server-app-7dbg.onrender.com/api/courses";
@@ -59,6 +61,7 @@ function Kanbas() {
         <div className="" style={{ flex: 1 }}>
           <Routes>
             <Route path="/" element={<Navigate to="Dashboard" />} />
+
             <Route
               path="Account"
               element={<h1 className="account-padding">Account</h1>}
@@ -80,6 +83,7 @@ function Kanbas() {
               path="Courses/:courseId/*"
               element={<Courses courses={courses} />}
             />
+            <Route path="/signin" element={<Signin />} />
           </Routes>
         </div>
       </div>

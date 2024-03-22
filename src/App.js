@@ -8,6 +8,7 @@ import { HashRouter, Link } from "react-router-dom";
 import { Routes, Route, Navigate } from "react-router";
 import Assignment4 from "./Labs/a4";
 import Assignment5 from "./Labs/a5";
+import Project from "./project";
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
           </Link>
         </div>
         <Routes>
-          <Route path="/" element={<Navigate to="/Labs" />} />
+          <Route path="/" element={<Navigate to="project" />} />
+          <Route path="/project/*" element={<Project />} />
           <Route path="/Labs/*" element={<Labs />} />
           <Route path="/a4/*" element={<Assignment4 />} />
           <Route path="/a5/*" element={<Assignment5 />} />
